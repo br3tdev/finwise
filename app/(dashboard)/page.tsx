@@ -1,12 +1,9 @@
-import { UserButton } from "@clerk/nextjs";
+"use client";
 
-import { Button } from "@/components/ui/button";
+import { useGetAccounts } from "@/features/accounts/api/use-get-accounts";
 
 export default function Home() {
-  return (
-    <div className="">
-      <h1>Welcome to finwise dashboard</h1>
-      <UserButton afterSignOutUrl="/" />
-    </div>
-  );
+  const { data: accounts, isLoading } = useGetAccounts();
+
+  return <div>Home</div>;
 }
