@@ -16,15 +16,18 @@
   - [x] Created the account schema with PostgreSQL and set up database migration scripts.
 
 - [x] API Routes and Hono Integration
+
   - [x] Created API routes for finwise SaaS project and integrated Hono into Next.js for optimized API routes.
     - [x] Defined the Request-Response types and used drizzle to fetch data from Postgres db.
     - [x] Setup query client provider for Next.js.
       - [x] Created Accounts GET API
       - [x] Created Accounts POST API
-    - [x]
-  -
-  - [x]
-  - [x] - [x]
-  - [x]
-  - [x] - [x]
-  -
+
+- [x] Data table component from shadcn UI
+
+  - [x] Columns and data table components
+  - [x] Added pagination and sorting functionality to the table.
+
+- [x] Accounts bulk delete endpoint
+  - [x] Created the use-bulk-delete api.
+  - [x] Use-confirm hook for bulk-delete confirmation modal.
