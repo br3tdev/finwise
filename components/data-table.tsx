@@ -30,6 +30,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
 interface DataTableProps<TData, TValue> {
+  name?: string;
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
   filterKey: string;
@@ -38,6 +39,7 @@ interface DataTableProps<TData, TValue> {
 }
 
 export function DataTable<TData, TValue>({
+  name,
   columns,
   data,
   filterKey,
@@ -146,7 +148,7 @@ export function DataTable<TData, TValue>({
                   colSpan={columns.length}
                   className="h-24 text-center"
                 >
-                  No accounts yet.
+                  No {!!name ? name : `rows`} yet.
                 </TableCell>
               </TableRow>
             )}
