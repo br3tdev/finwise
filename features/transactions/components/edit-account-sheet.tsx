@@ -12,10 +12,10 @@ import {
 } from "@/components/ui/sheet";
 
 import { useDeleteAccount } from "../api/use-delete-account";
-import { useEditAccount } from "../api/use-edit-account";
-import { useGetAccount } from "../api/use-get-account";
+import { useEditAccount } from "../api/use-edit-transaction";
+import { useGetAccount } from "../api/use-get-transaction";
 import { useOpenAccount } from "../hooks/use-open-account";
-import AccountForm from "./account-form";
+import AccountForm from "./transaction-form";
 
 export interface IEditAccountSheetProps {}
 
