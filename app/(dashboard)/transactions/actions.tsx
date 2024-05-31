@@ -1,7 +1,7 @@
 "use client";
 
-import { useDeleteCategory } from "@/features/categories/api/use-delete-category";
-import { useOpenCategory } from "@/features/categories/hooks/use-open-category";
+import { useDeleteTransaction } from "@/features/transactions/api/use-delete-transaction";
+import { useOpenTransaction } from "@/features/transactions/hooks/use-open-transaction";
 import { Edit, MoreHorizontal, Trash } from "lucide-react";
 
 import { useConfirm } from "@/hooks/use-confirm";
@@ -18,11 +18,11 @@ export interface IActionsProps {
 }
 
 export default function Actions({ id }: IActionsProps) {
-  const deleteMutation = useDeleteCategory(id);
-  const { onOpen } = useOpenCategory();
+  const deleteMutation = useDeleteTransaction(id);
+  const { onOpen } = useOpenTransaction();
   const [ConfirmationDialog, confirm] = useConfirm(
     "Are you sure?",
-    "You are about to delete this category and its transactions history.",
+    "You are about to delete this transactions.",
   );
 
   const handleDelete = async () => {

@@ -101,9 +101,9 @@ const app = new Hono()
           notes: transactions.notes,
           accountId: transactions.accountId,
         })
-        .from(categories)
+        .from(transactions)
         .innerJoin(accounts, eq(transactions.accountId, accounts.id))
-        .where(and(eq(transactions.id, id), eq(accounts.id, auth.userId)));
+        .where(and(eq(transactions.id, id), eq(accounts.userId, auth.userId)));
 
       if (!data) {
         return c.json({ error: "Not found" }, 404);
@@ -193,7 +193,7 @@ const app = new Hono()
 
       const data = await db
         .with(transactionsToDelete)
-        .delete(categories)
+        .delete(transactions)
         .where(
           inArray(
             transactions.id,

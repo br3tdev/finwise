@@ -35,7 +35,7 @@ const apiFormSchema = insertTransactionSchema.omit({
 type FormValues = z.infer<typeof formSchema>;
 type ApiFormValues = z.infer<typeof apiFormSchema>;
 
-type IAccountFormProps = {
+type ITransactionFormProps = {
   id?: string;
   defaultValues?: FormValues;
   onSubmit: (values: ApiFormValues) => void;
@@ -57,7 +57,7 @@ export default function TransactionForm({
   accountOptions,
   onCreateCategory,
   categoryOptions,
-}: IAccountFormProps) {
+}: ITransactionFormProps) {
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: defaultValues,
@@ -103,7 +103,7 @@ export default function TransactionForm({
           control={form.control}
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Account</FormLabel>
+              <FormLabel>Transaction</FormLabel>
               <FormControl>
                 <Select
                   placeholder="Select account or Type to create"

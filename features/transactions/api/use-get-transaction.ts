@@ -5,9 +5,9 @@ import { client } from "@/lib/hono";
 export function useGetTransaction(id?: string) {
   const query = useQuery({
     enabled: !!id,
-    queryKey: ["transactions", { id }],
+    queryKey: ["transaction", { id }],
     queryFn: async () => {
-      const response = await client.api.transactions[":id"].$get({
+      const response = await client.api.transactions[":id"]["$get"]({
         param: { id },
       });
 
