@@ -1,0 +1,21 @@
+Date,Description,Amount,Transaction Type,Recipient
+2024-05-03 14:23:56,Grocery Store,-148.76,Debit,Walmart
+2024-05-06 09:12:34,Restaurant,-79.50,Debit,McDonald's
+2024-05-08 11:45:21,Salary,1320.47,Credit,Acme Corp
+2024-05-10 18:05:09,Electricity Bill,-101.66,Debit,Utility Company
+2024-05-12 07:54:22,Internet Bill,-94.92,Debit,Internet Provider
+2024-05-14 19:30:10,Gas Station,-74.16,Debit,Shell
+2024-05-16 08:17:38,Coffee Shop,-22.65,Debit,Starbucks
+2024-05-18 13:42:55,Clothing Store,-100.79,Debit,H&M
+2024-05-20 17:29:12,Gym Membership,-65.18,Debit,Fitness Center
+2024-05-22 20:54:47,Movie Theater,-30.43,Debit,AMC
+2024-05-24 16:11:33,Bookstore,-34.21,Debit,Barnes & Noble
+2024-05-26 14:23:15,Online Shopping,-136.55,Debit,Amazon
+2024-05-28 12:08:19,Medical Bill,-50.11,Debit,City Hospital
+2024-05-30 09:45:54,Public Transport,-41.33,Debit,Transit Authority
+2024-05-31 21:12:08,Insurance Premium,-94.89,Debit,Insurance Co
+2024-05-05 22:54:11,Gift,-56.97,Debit,Friend
+2024-05-07 10:23:17,Travel,647.18,Credit,Travel Agency
+2024-05-09 08:34:52,Rent,-981.92,Debit,Landlord
+2024-05-11 14:15:44,Water Bill,-80.91,Debit,Water Utility
+2024-05-13 17:26:32,Entertainment,-108.48,Debit,Concert Hall
