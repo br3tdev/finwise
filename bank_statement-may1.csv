@@ -1,0 +1,53 @@
+Date,Description,Amount,Transaction Type,Payee/Recipient
+2024-05-01 08:15:23,Grocery Store,-345.67,Debit,Walmart
+2024-05-01 12:34:56,Salary,750.00,Credit,Acme Corp
+2024-05-02 09:45:12,Restaurant,-212.34,Debit,McDonald's
+2024-05-02 17:21:45,Internet Bill,-250.00,Debit,Internet Provider
+2024-05-03 11:13:57,Gas Station,-300.50,Debit,Shell
+2024-05-03 15:22:18,Coffee Shop,-220.80,Debit,Starbucks
+2024-05-04 10:05:44,Clothing Store,-400.25,Debit,H&M
+2024-05-04 18:37:29,Gym Membership,-290.30,Debit,Fitness Center
+2024-05-05 09:18:13,Movie Theater,-270.50,Debit,AMC
+2024-05-05 14:32:08,Bookstore,-230.45,Debit,Barnes & Noble
+2024-05-06 08:45:54,Online Shopping,-320.90,Debit,Amazon
+2024-05-06 19:15:37,Medical Bill,-280.75,Debit,City Hospital
+2024-05-07 10:24:18,Public Transport,-240.30,Debit,Transit Authority
+2024-05-07 12:54:29,Insurance Premium,-290.60,Debit,Insurance Co
+2024-05-08 07:23:47,Gift,-260.50,Debit,Friend
+2024-05-08 13:45:34,Travel,600.00,Credit,Travel Agency
+2024-05-09 10:12:13,Rent,-780.00,Debit,Landlord
+2024-05-09 16:25:48,Water Bill,-210.00,Debit,Water Utility
+2024-05-10 08:05:19,Entertainment,-250.75,Debit,Concert Hall
+2024-05-10 14:30:06,Salary,750.00,Credit,Acme Corp
+2024-05-11 09:45:37,Restaurant,-270.20,Debit,Subway
+2024-05-11 18:22:11,Clothing Store,-300.45,Debit,Zara
+2024-05-12 10:35:44,Medical Bill,-340.25,Debit,City Clinic
+2024-05-12 14:55:33,Online Shopping,-220.10,Debit,eBay
+2024-05-13 08:15:27,Grocery Store,-345.50,Debit,Kroger
+2024-05-13 12:47:19,Electricity Bill,-310.90,Debit,Utility Company
+2024-05-14 09:25:58,Coffee Shop,-270.45,Debit,Dunkin' Donuts
+2024-05-14 13:14:38,Gas Station,-290.20,Debit,BP
+2024-05-15 11:08:29,Movie Theater,-260.15,Debit,Regal
+2024-05-15 16:22:47,Bookstore,-220.35,Debit,Books-A-Million
+2024-05-16 07:52:31,Gym Membership,-275.50,Debit,Fitness World
+2024-05-16 19:10:48,Gift,-290.25,Debit,Colleague
+2024-05-17 10:12:59,Travel,680.00,Credit,Travel Agency
+2024-05-17 14:45:20,Restaurant,-310.60,Debit,Olive Garden
+2024-05-18 09:23:14,Clothing Store,-400.00,Debit,Macy's
+2024-05-18 15:35:42,Insurance Premium,-290.40,Debit,Geico
+2024-05-19 08:14:56,Public Transport,-240.75,Debit,Metro
+2024-05-19 11:25:23,Salary,750.00,Credit,Acme Corp
+2024-05-20 10:45:37,Water Bill,-210.30,Debit,Water Company
+2024-05-20 13:56:22,Entertainment,-255.80,Debit,Amusement Park
+2024-05-21 09:15:14,Online Shopping,-320.50,Debit,Amazon
+2024-05-21 12:25:46,Medical Bill,-330.90,Debit,Health Clinic
+2024-05-22 08:05:21,Coffee Shop,-280.10,Debit,Starbucks
+2024-05-22 14:47:35,Grocery Store,-340.75,Debit,Trader Joe's
+2024-05-23 09:35:45,Gas Station,-290.00,Debit,ExxonMobil
+2024-05-23 18:15:32,Restaurant,-310.20,Debit,Applebee's
+2024-05-24 10:45:16,Clothing Store,-400.45,Debit,Old Navy
+2024-05-24 13:15:37,Gift,-250.75,Debit,Family
+2024-05-25 11:05:24,Travel,750.00,Credit,Travel Agency
+2024-05-25 16:25:18,Electricity Bill,-310.60,Debit,Utility Company
+2024-05-26 08:35:49,Gym Membership,-290.45,Debit,24 Hour Fitness
+2024-05-26 13:45:12,Bookstore,-220.30,Debit,Indigo
