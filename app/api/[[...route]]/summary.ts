@@ -25,6 +25,8 @@ const app = new Hono().get(
 
     const { from, to, accountId } = c.req.valid("query");
 
+    console.log("summary", { to, from, accountId });
+
     if (!auth?.userId) {
       return c.json({ error: "Unauthorized" }, 401);
     }
@@ -37,6 +39,8 @@ const app = new Hono().get(
       : defaultFrom;
 
     const endDate = to ? parse(to, "yyyy-MM-dd", new Date()) : defaultTo;
+
+    console.log("summary2", { startDate, endDate });
 
     const periodLength = differenceInDays(endDate, startDate) + 1;
     const lastPeriodStart = subDays(startDate, periodLength);

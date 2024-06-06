@@ -11,6 +11,8 @@ export function useGetSummary() {
   const to = params.get("to") || "";
   const accountId = params.get("accountId") || "";
 
+  console.log("useGetSummary", { params });
+
   const query = useQuery({
     // TODO: Check if params are needed in QueryKey
     queryKey: ["summary", { from, to, accountId }],
